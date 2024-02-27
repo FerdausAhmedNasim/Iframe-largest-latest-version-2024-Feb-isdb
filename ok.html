@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        
+        .one{
+            border: 1px solid black;
+            width: 200px;
+            height: 500px;
+            float: left;
+            text-align: left;
+        }
+        .two{
+            height: 500px;
+            float: left;
+            text-align: left;
+            width: calc(100%-200px);
+        }
+        .iframe{
+            height: 500px;
+            width: calc(100%-200px);
+        }
+
+        @media screen and (max-width:500px){
+            .two{
+                width:60%;
+                     }
+                    }
+    </Style>
+</head>
+<body>
+
+    <div class="one">
+        <a href="./table.html" target="open">Table</a><br>
+        <a href="./form.html"  target="open">Form</a><br>
+        <a href="./Css.html"   target="open">Css</a><br>
+    </div>
+
+   
+
+    <div class="two">
+        <iframe src="" class="iframe" name="open"
+        style="height: 500px; width: 370%;"
+        ></iframe>
+    </div>
+
+</div>
+
+</body>
+</html>
